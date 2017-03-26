@@ -1,6 +1,6 @@
-update=Sunday, March 26, 2017 'AMt' 11:30:54 AM
+update=Sunday, March 26, 2017 'PMt' 02:07:06 PM
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -27,7 +27,7 @@ ModuleOutlineThickness=0.15
 version=1
 [eeschema]
 version=1
-LibDir=/Users/aidwen/Downloads/kicad_teensy-master copy/Teensy.pretty;/Users/aidwen/Documents/MK20DX256VLH7
+LibDir=../KiCAD_Libraries/kicad_teensy/Teensy.pretty;libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
