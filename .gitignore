@@ -2,3 +2,4 @@ _saved*
 *.DS_Store
 *-bak
 Gerbers/*
+*.bak
