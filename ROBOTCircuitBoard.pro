@@ -1,6 +1,6 @@
-update=Sunday, March 26, 2017 'AMt' 11:30:54 AM
+update=Monday, March 27, 2017 'PMt' 05:13:01 PM
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
