@@ -1,4 +1,4 @@
-update=Sunday, March 26, 2017 'PMt' 02:07:06 PM
+update=Monday, July 17, 2017 'PMt' 05:44:48 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -27,7 +27,7 @@ ModuleOutlineThickness=0.15
 version=1
 [eeschema]
 version=1
-LibDir=../KiCAD_Libraries/kicad_teensy/Teensy.pretty;libraries
+LibDir=/Users/aidwen/Downloads/kicad_teensy-master copy/Teensy.pretty;/Users/aidwen/Downloads/Buttons_Switches_SMD.pretty-master
 [eeschema/libraries]
 LibName1=power
 LibName2=device
