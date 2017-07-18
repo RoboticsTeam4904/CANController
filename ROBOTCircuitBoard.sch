@@ -780,4 +780,6 @@ Wire Wire Line
 	4100 7450 4100 7600
 Text Label 4250 7350 0    60   ~ 0
 P
+Text Notes 5000 7300 1    60   ~ 0
+Pushbutton NO\n
 $EndSCHEMATC
