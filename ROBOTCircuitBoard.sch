@@ -852,7 +852,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 6350 4700 6450
 Wire Wire Line
-	4150 3450 5200 3450
+	3800 3450 5200 3450
 Connection ~ 4950 3450
 Connection ~ 4550 3450
 Connection ~ 4350 3450
@@ -1008,4 +1008,36 @@ F 3 "" H 4200 3050 50  0000 C CNN
 	1    4200 3050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Fuse F?
+U 1 1 5980A7D8
+P 3950 3050
+F 0 "F?" V 4030 3050 50  0000 C CNN
+F 1 "Fuse" V 3875 3050 50  0000 C CNN
+F 2 "" V 3880 3050 50  0000 C CNN
+F 3 "" H 3950 3050 50  0000 C CNN
+	1    3950 3050
+	0    1    1    0   
+$EndComp
+Connection ~ 4150 3450
+$Comp
+L CP C?
+U 1 1 5980AC81
+P 3800 3300
+F 0 "C?" H 3825 3400 50  0000 L CNN
+F 1 "2.2uF" H 3825 3200 50  0000 L CNN
+F 2 "" H 3838 3150 50  0000 C CNN
+F 3 "" H 3800 3300 50  0000 C CNN
+	1    3800 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 2850 3800 3150
+Wire Wire Line
+	3800 2850 6250 2850
+Wire Wire Line
+	6250 2850 6250 5200
+Wire Wire Line
+	6250 5200 5900 5200
+Connection ~ 3800 3050
 $EndSCHEMATC
