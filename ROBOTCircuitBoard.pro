@@ -1,4 +1,4 @@
-update=7/29/2017 10:45:28 PM
+update=Tuesday, August 01, 2017 'AMt' 08:27:09 AM
 version=1
 last_client=kicad
 [cvpcb]
@@ -61,3 +61,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=teensy
 LibName32=MK20DX256VLH7
+LibName33=libraries/lp38691
