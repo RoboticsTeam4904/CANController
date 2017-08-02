@@ -979,7 +979,7 @@ F 1 "2.2uF" H 5225 3200 50  0000 L CNN
 F 2 "" H 5238 3150 50  0000 C CNN
 F 3 "" H 5200 3300 50  0000 C CNN
 	1    5200 3300
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L CP C?
@@ -996,7 +996,7 @@ Wire Wire Line
 	4300 3450 4350 3450
 Connection ~ 4300 3450
 Wire Wire Line
-	4300 3050 4300 3150
+	4300 2750 4300 3150
 $Comp
 L Jumper_NC_Small JP?
 U 1 1 5980C3AE
@@ -1032,12 +1032,35 @@ F 3 "" H 3800 3300 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3800 2850 3800 3150
-Wire Wire Line
-	3800 2850 6250 2850
-Wire Wire Line
-	6250 2850 6250 5200
-Wire Wire Line
-	6250 5200 5900 5200
+	3800 3050 3800 3150
 Connection ~ 3800 3050
+Wire Wire Line
+	5200 3050 5500 3050
+$Comp
+L +3.3V #PWR?
+U 1 1 59814146
+P 5500 3050
+F 0 "#PWR?" H 5500 2900 50  0001 C CNN
+F 1 "+3.3V" H 5500 3190 50  0000 C CNN
+F 2 "" H 5500 3050 50  0001 C CNN
+F 3 "" H 5500 3050 50  0001 C CNN
+	1    5500 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 3050 5500 3750
+Connection ~ 5500 3750
+Wire Wire Line
+	5900 5200 6150 5200
+Text Label 6150 5200 2    60   ~ 0
+VUSB
+Wire Wire Line
+	3550 3050 3800 3050
+Text Label 3550 3050 0    60   ~ 0
+VUSB
+Connection ~ 4300 3050
+Text Label 4300 2750 3    60   ~ 0
+VIN
+Text Notes 2900 2500 0    60   ~ 0
+VIN is a power supply pin that needs to be between 3.6V and 6V
 $EndSCHEMATC
