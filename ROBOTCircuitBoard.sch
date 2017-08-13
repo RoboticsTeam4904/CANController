@@ -1063,4 +1063,37 @@ Text Label 4300 2750 3    60   ~ 0
 VIN
 Text Notes 2900 2500 0    60   ~ 0
 VIN is a power supply pin that needs to be between 3.6V and 6V
+$Comp
+L LED D?
+U 1 1 598FA689
+P 1200 4850
+F 0 "D?" H 1200 4950 50  0000 C CNN
+F 1 "LED" H 1200 4750 50  0000 C CNN
+F 2 "" H 1200 4850 50  0001 C CNN
+F 3 "" H 1200 4850 50  0001 C CNN
+	1    1200 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 598FA746
+P 900 4850
+F 0 "R?" V 980 4850 50  0000 C CNN
+F 1 "R" V 900 4850 50  0000 C CNN
+F 2 "" V 830 4850 50  0001 C CNN
+F 3 "" H 900 4850 50  0001 C CNN
+	1    900  4850
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 598FA803
+P 750 4850
+F 0 "#PWR?" H 750 4600 50  0001 C CNN
+F 1 "GND" H 750 4700 50  0000 C CNN
+F 2 "" H 750 4850 50  0001 C CNN
+F 3 "" H 750 4850 50  0001 C CNN
+	1    750  4850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

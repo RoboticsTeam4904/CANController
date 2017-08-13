@@ -1,4 +1,4 @@
-update=Tuesday, August 01, 2017 'AMt' 08:27:09 AM
+update=8/3/2017 3:56:58 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -27,7 +27,7 @@ ModuleOutlineThickness=0.15
 version=1
 [eeschema]
 version=1
-LibDir=/Users/aidwen/Downloads/kicad_teensy-master copy/Teensy.pretty;/Users/aidwen/Downloads/Buttons_Switches_SMD.pretty-master
+LibDir=libraries/Switches
 [eeschema/libraries]
 LibName1=ROBOTCircuitBoard-rescue
 LibName2=power
