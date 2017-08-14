@@ -1,3 +1,3 @@
 ### CANController
-This is a KiCAD file for a PCB that converts the serial bus data from sensors to CAN bus data which are passed through DB15 connectors and VGA cables to other similar PCBs (other board schematics can be found in different repositories on github.com/roboticsteam4904).
-It also functions as the controller and power for 3 pin LED strips.
+This is a KiCAD file for a PCB that converts the serial bus data from sensors to CAN bus data using an intermediary embedded Teensy 3.2 which are then passed through DB15 connectors and VGA cables to other similar PCBs (other board schematics can be found in different repositories on github.com/roboticsteam4904).
+The main sensors are LiDAR and encoders but it can be used with most sensors that have more than 5-pin connections. It also functions as power and data signal for LED strips scuh as the Adafruit Neopixels.
