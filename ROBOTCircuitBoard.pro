@@ -1,4 +1,4 @@
-update=8/3/2017 3:56:58 PM
+update=Friday, September 01, 2017 'PMt' 12:21:01 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -23,8 +23,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=libraries/Switches
@@ -62,3 +60,5 @@ LibName30=valves
 LibName31=teensy
 LibName32=MK20DX256VLH7
 LibName33=libraries/lp38691
+[general]
+version=1
