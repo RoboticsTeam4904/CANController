@@ -1,4 +1,4 @@
-update=Friday, September 29, 2017 'PMt' 04:34:03 PM
+update=Friday, September 29, 2017 'PMt' 05:13:56 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -46,7 +46,7 @@ version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=TeensyNetlistv1.0.net
+LastNetListRead=TeensyNetlistv1.01.net
 PadDrill=0.762
 PadDrillOvalY=0.762
 PadSizeH=1.524

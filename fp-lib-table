@@ -1,4 +1,7 @@
 (fp_lib_table
   (lib (name kicadfootprints)(type KiCad)(uri "$(KIPRJMOD)/libraries/kicadfootprints")(options "")(descr ""))
   (lib (name MK20DX256VLH7)(type Legacy)(uri "$(KIPRJMOD)/libraries/MK20DX256VLH7.mod")(options "")(descr ""))
+  (lib (name kicad-open-modules)(type KiCad)(uri /Users/aidwen/Desktop/NoSync/kicad-open-modules)(options "")(descr ""))
+  (lib (name greglib)(type Legacy)(uri "/Users/aidwen/Desktop/NoSync/PhotosynQ-Hardware/beta/add to library folder/greglib.mod")(options "")(descr ""))
+  (lib (name Teensy_DIY_v1.0)(type Legacy)(uri "$(KIPRJMOD)/libraries/Teensy_DIY_v1.0.mod")(options "")(descr ""))
 )
